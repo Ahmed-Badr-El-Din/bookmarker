@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Book mark</title>
+</head>
+<body class=" position-relative">
+    <div class="overlay d-flex justify-content-center align-items-center">
+
+    <div class="container">
+        <h1 class="h1 text-center">Bookmarker</h1>
+        <hr>
+        <h2 class="text-center">
+            <i class="fa-solid fa-bookmark"></i>
+            Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+        </h2>
+        <label for="" class="d-flex mb-3 mt-3">
+            <i class="fa-solid fa-book-bookmark pe-2"></i>
+            site name
+        </label>
+        <input type="text" placeholder="Book mark name" class="form-control" id="inputname">
+
+        <label for="" class="d-flex mb-3 mt-3">
+            <i class="fa-solid fa-link pe-2"></i>
+            site URL
+        </label>
+        <input type="text" placeholder="website URL" class="form-control" id="inputurl">
+        <button type="button" class="submet mt-5" id="sumbtn">submit</button>
+
+        <hr class="mt-4 mb-5">
+        <table class="table mt-4 text-center bg-white">
+            <thead >
+                <tr >
+                    <th>Index</th>
+                    <th>Website name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                </tbody
+        </table>
+
+
+    </div>
+    </div>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

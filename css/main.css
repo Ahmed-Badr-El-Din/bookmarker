@@ -1,0 +1,62 @@
+body{
+    background-color: #f7ecde;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    color: #352e28;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    font-style: italic;
+    letter-spacing: 2px;    
+}
+.h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fec260;
+    width: 100%;
+    height: 30%;
+    transition: height 0.2s;
+    cursor: text;
+    z-index: -1;
+}
+.h1:hover::after{
+    height: 70%;
+    background-color: #fec260;
+}
+
+.submet{
+    background-color: #d1512d;
+    color: #fff;
+    padding: 10px;
+    width: 15%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    
+
+}
+.submet:hover{
+    background-color: #e7491d;
+}
+
+tr{
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+  
+}
+
+
+
+ h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
